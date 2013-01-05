@@ -8,7 +8,6 @@ This is a small python utility for scraping U of M information sites to get loca
 2. ```python
 import umbuildingutils
 ```
-
 3. Do some sweet U of M building location info scraping.
 
 
