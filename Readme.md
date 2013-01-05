@@ -5,9 +5,7 @@ This is a small python utility for scraping U of M information sites to get loca
 ## Usage
 
 1. Drop this into your project as a package.
-2. ```python
-import umbuildingutils
-```
+2. `import umbuildingutils`
 3. Do some sweet U of M building location info scraping.
 
 
