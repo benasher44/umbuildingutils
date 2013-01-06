@@ -39,7 +39,7 @@ class UMBuildingLocation:
         return "address: " + self.address + " | city: " + self.city + " | state: " + self.state + " | zipcode: " + self.zipcode
 
 # useful function for fetching data
-# important/convenient important for closing the connection as soon as its read all of the data
+# important/convenient for closing the connection as soon as its read all of the data
 def fetch_data(url, post_params={}):
     if len(post_params) > 0:
         conn = urllib2.urlopen(url, urlencode(post_params))
